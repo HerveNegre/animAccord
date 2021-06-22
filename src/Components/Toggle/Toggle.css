@@ -2,7 +2,7 @@
     max-width: 400px;
     height: auto;
     margin: 100px auto 0;
-    border-radius: 13px 13px;
+    border-radius: 9px 9px;
     box-shadow: -1em 0.4em grey;
 }
 
@@ -13,10 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    border-radius: 9px 9px 2px 2px;
+    padding: 20px;
+    border-radius: 9px 9px 3px 3px;
 }
-
 .toggle-visible img {
     width: 20px;
 }
@@ -29,7 +28,7 @@
     font-size: 18px;
     background: #eeeeee;
     opacity: 0;
-    border-radius: 0 0 13px 13px;
+    border-radius: 0 0 9px 9px;
     transition:
     opacity 0.2s ease-in-out,
     height 0.2s 0.2s ease-in-out;
