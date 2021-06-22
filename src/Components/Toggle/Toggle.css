@@ -1,0 +1,50 @@
+.toggle {
+    max-width: 400px;
+    height: auto;
+    margin: 100px auto 0;
+    border-radius: 13px 13px;
+    box-shadow: -1em 0.4em grey;
+}
+
+.toggle-visible {
+    background: #474fb3;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 9px 9px 2px 2px;
+}
+
+.toggle-visible img {
+    width: 20px;
+}
+
+.toggle-visible h2 {
+    font-size: 22px;
+}
+
+.toggle-start {
+    font-size: 18px;
+    background: #eeeeee;
+    opacity: 0;
+    border-radius: 0 0 13px 13px;
+    transition:
+    opacity 0.2s ease-in-out,
+    height 0.2s 0.2s ease-in-out;
+}
+
+.animated {
+    opacity: 1;
+    transition:
+    height 0.4s ease-in-out,
+    opacity 0.4s 0.4s ease-in-out;
+}
+
+.toggle-start p {
+    margin: 0;
+    padding: 22px 15px;
+    pointer-events: none;
+    line-height: 1.4;
+}
